@@ -16,6 +16,10 @@ while(true) {
 // To display tasks
 console.log("Your Todo List");
 
-tasks.forEach((task, index) => {
+/* tasks.forEach((task, index) => {
     console.log(`${index + 1}. ${task}`);
-});
+}); */
+
+// different loop option
+for (let i = 0; i < tasks.length);
+    console.log(`${i + 1}. ${tasks(i)}`);
