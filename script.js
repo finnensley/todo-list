@@ -21,5 +21,6 @@ console.log("Your Todo List");
 }); */
 
 // different loop option
-for (let i = 0; i < tasks.length);
-    console.log(`${i + 1}. ${tasks(i)}`);
+for (let i = 0; i < tasks.length;i++) {
+    console.log(`${i + 1}. ${tasks[i]}`);
+}
